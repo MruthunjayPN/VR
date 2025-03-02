@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+:root {
+  font-family: "Poppins" , sans-serif;
+  color-scheme: dark;
+  background-color: #190101;
+}
+
+@theme {
+  --color-diesel-50: #fff3ec;
+  --color-diesel-100: #ffe3d2;
+  --color-diesel-200: #ffc3a4;
+  --color-diesel-300: #ff9a6b;
+  --color-diesel-400: #ff642f;
+  --color-diesel-500: #ff3a06;
+  --color-diesel-600: #f91d00;
+  --color-diesel-700: #cf0f00;
+  --color-diesel-800: #a30e09;
+  --color-diesel-900: #830f0b;
+  --color-diesel-950: #190101;
+}
+
+body {
+  @apply text-diesel-50
+}
