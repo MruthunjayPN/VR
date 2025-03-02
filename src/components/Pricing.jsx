@@ -27,7 +27,7 @@ function Pricing() {
                             ))}
                         </ul>
                         <a href="#" className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight rounded-lg border border-diesel-950 bg-diesel-200 text-diesel-950 hover:bg-diesel-300 transition duration-200 text-xl">
-                            Suscribe
+                            Subscribe
                         </a>
                     </div>
                 </div>
